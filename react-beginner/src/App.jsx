@@ -1,45 +1,27 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import Home from './component/Home';
+import Clip from './component/Clip';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const newsList = [
+    {
+      title: 'Home Work',
+      date: '2022-06-13',
+    },
+    {
+      title: 'Hello mama',
+      date: '2202-09-02',
+    },
+  ];
+
+  console.log(newsList);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
-  )
+    <>
+      <Home title={newsList[0].title} date={newsList[0].date} />
+      <Home title={newsList[1].title} date={newsList[1].date} />
+      <Clip />
+    </>
+  );
 }
 
-export default App
+export default App;
