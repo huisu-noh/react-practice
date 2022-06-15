@@ -15,6 +15,7 @@ function App() {
       `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=trSbmSW4LczL0n7jtUVEYGEaGjne1QQn`
     );
     const data = await response.json();
+
     const transformedNews = data.response.docs.map((newsData) => {
       return {
         id: newsData._id,
@@ -26,16 +27,16 @@ function App() {
     console.log('handler down news:', news);
   };
 
-  const id = news[0].id;
-  const title = news[0].title;
-  const date = news[0].date;
+  // const id = news[0].id;
+  // const title = news[0].title;
+  // const date = news[0].date;
 
   return (
     <>
       <section>
         <button onClick={fecthNewsHandler}>Search</button>
       </section>
-      <Home id={id} title={title} date={date} />
+      <Home news={news} />
       <Clip />
     </>
   );
