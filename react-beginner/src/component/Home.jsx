@@ -1,23 +1,23 @@
 import React from 'react';
 
-import { useState } from 'react';
+import Age from './Age';
 
 const Home = (props) => {
-  const [isClip, setIsClip] = useState(true);
-
-  const clipHandeler = () => {
-    setIsClip(!isClip);
-  };
+  console.log(props.person[0].age);
+  const age = props.person[0].age;
 
   return (
     <div>
+      <h1>Home</h1>
+
       <ul>
-        <li>{props.title}</li>
-        <li>{props.date}</li>
+        <li>name: {props.person[0].name}</li>
+        <Age age={age} />
+        <li>ID: {}</li>
+        <li>Title: {}</li>
+        <li>Date: {}</li>
         <li>
-          <button onClick={clipHandeler}>
-            {isClip == true ? 'Clip' : 'UnClip'}
-          </button>
+          <button>Clip</button>
         </li>
       </ul>
     </div>

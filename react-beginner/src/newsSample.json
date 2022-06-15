@@ -1,0 +1,77 @@
+{
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "response": {
+    "docs": [
+      {
+        "abstract": "Representative Elaine Luria of Virginia knows the coming hearings could be a political liability for her in a Republican-leaning district. “If I don’t get re-elected because of this, that’s OK.”",
+        "web_url": "https://www.nytimes.com/2022/06/07/us/politics/elaine-luria-jan-6-hearings.html",
+        "snippet": "Representative Elaine Luria of Virginia knows the coming hearings could be a political liability for her in a Republican-leaning district. “If I don’t get re-elected because of this, that’s OK.”",
+        "lead_paragraph": "Follow live updates on the House committee hearing on the Jan. 6 attack on the Capitol.",
+        "print_section": "A",
+        "print_page": "10",
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "rank": 0,
+            "subtype": "xlarge",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2022/06/07/us/politics/07dc-luria1/merlin_208195179_473a202b-9cea-445f-857c-6cf693cb67b3-articleLarge.jpg",
+            "height": 400,
+            "width": 600,
+            "legacy": {
+              "xlarge": "images/2022/06/07/us/politics/07dc-luria1/merlin_208195179_473a202b-9cea-445f-857c-6cf693cb67b3-articleLarge.jpg",
+              "xlargewidth": 600,
+              "xlargeheight": 400
+            },
+            "subType": "xlarge",
+            "crop_name": "articleLarge"
+          }
+        ],
+        "headline": {
+          "main": "The Jan. 6 Inquiry’s Only Endangered Democrat Prepares Herself for a Fight",
+          "kicker": null,
+          "content_kicker": null,
+          "print_headline": "The Democrat Risking Her Seat to Dissect the Capitol Riot",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "subject",
+            "value": "Presidential Election of 2020",
+            "rank": 1,
+            "major": "N"
+          }
+        ],
+        "pub_date": "2022-06-07T18:48:09+0000",
+        "document_type": "article",
+        "news_desk": "Washington",
+        "section_name": "U.S.",
+        "subsection_name": "Politics",
+        "byline": {
+          "original": "By Jonathan Weisman",
+          "person": [
+            {
+              "firstname": "Jonathan",
+              "middlename": null,
+              "lastname": "Weisman",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "News",
+        "_id": "nyt://article/2c1b2418-81bc-5011-80d5-eafd0609f4ff",
+        "word_count": 1520,
+        "uri": "nyt://article/2c1b2418-81bc-5011-80d5-eafd0609f4ff"
+      }
+    ]
+  }
+}

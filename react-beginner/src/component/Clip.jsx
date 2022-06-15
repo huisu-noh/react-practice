@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Clip = () => {
-  return <div>clip</div>;
+  return (
+    <div>
+      <h1>clip</h1>
+    </div>
+  );
 };
 
 export default Clip;
