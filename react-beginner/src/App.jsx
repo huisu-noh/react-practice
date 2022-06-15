@@ -23,26 +23,19 @@ function App() {
       };
     });
     setNews(transformedNews);
-    console.log(transformedNews);
     console.log('handler down news:', news);
-    console.log('news[0]', news[0]);
   };
 
-  const person = [
-    {
-      name: 'huisu',
-      age: 31,
-    },
-  ];
+  const id = news[0].id;
+  const title = news[0].title;
+  const date = news[0].date;
 
   return (
     <>
       <section>
         <button onClick={fecthNewsHandler}>Search</button>
       </section>
-
-      {/* 반복문을 사용해서 props 안에 있는 데이터를 꺼내서 뿌려야한다.  */}
-      <Home person={person} />
+      <Home id={id} title={title} date={date} />
       <Clip />
     </>
   );
