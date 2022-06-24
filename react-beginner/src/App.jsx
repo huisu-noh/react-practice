@@ -8,8 +8,6 @@ function App() {
 
   //{"status":"OK",
 
-  console.log('handler up news:', news);
-
   const fecthNewsHandler = async () => {
     const response = await fetch(
       `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=trSbmSW4LczL0n7jtUVEYGEaGjne1QQn`
@@ -24,7 +22,6 @@ function App() {
       };
     });
     setNews(transformedNews);
-    console.log('handler down news:', news);
   };
 
   // const id = news[0].id;

@@ -1,9 +1,12 @@
 import React from 'react';
 
+import Home from './Home';
+
 const Clip = () => {
   return (
     <div>
-      <h1>clip</h1>
+      <h1>Clip</h1>
+      {/* {<Home />} */}
     </div>
   );
 };
